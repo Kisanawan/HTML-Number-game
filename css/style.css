@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color : whitesmoke;
+}
+
+nav{
+    background-color: salmon;
+    color: cornflowerblue;
+    min-height: 80px;
+    display: flex; /* ต้องมีมาพร้อมกัน*/
+    justify-content: center;/* ต้องมีมาพร้อมกัน*/
+}
+
+nav .container{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .container .title{
+    align-self: center;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+nav .container .navbar{
+    align-self: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav .container .navbar a{
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+nav .container .navbar a:hover{
+    color:firebrick;
+}
+
+nav .container .title a:hover{
+    color: black;
+}
+
+.wrapper{
+    background-color: cadetblue;
+    height: calc(100vh - 0px); /*ระวังตรงนี้ไว้*/
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+
+    align-self: center;
+    /* background-color: bisque; */
+    padding: 50px;
+    margin: 50px;
+
+}
+
+@media(max-width:600px){
+    nav .container .navbar{
+        display: none;
+    }
+}
+.rule{
+    background-color: wheat;
+    color: rgb(80, 133, 134);
+    padding: 5%;
+    
+}
+
