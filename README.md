@@ -7,12 +7,17 @@
 
 "Final version 01" : 4/02/2020 
 
+_________________
+
 version 01
 
--not debug yet 
+-not edit phone version 
 
 -final \\(*-*)// 
 
-date : 4/02/2020
+-date : 4/02/2020
+
+___________________
+
 
 
